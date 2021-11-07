@@ -1,0 +1,44 @@
+.container{
+    padding: 25px;
+}
+
+.displaybox{
+    display: flex;
+    justify-content: space-between;
+}
+
+.displayend{
+    display: flex;
+    justify-content: end;
+}
+
+.displayflex{
+    display: flex;
+}
+.collums{
+    width: 40%;
+    padding: 10px;
+    margin-left: 50px;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    width: 40%;
+    padding: 10px;
+    margin-left: 50px;
+    border: 1px solid black;
+    display: flex;
+    
+
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.box .flex img {
+    width: 130px;
+    height: 130px;
+}
